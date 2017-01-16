@@ -8,15 +8,19 @@
   * UX construida usando el framework PyQT5.
   * Script de validaciones hecho en Bash.
   * Hash híbrido para encriptar las contraseñas.
-  * 
-  *
+  * Encriptado de tipo “one way”.
 
 
 ### Instrucciones de uso
 
+  * Ejecutar en consola el comando -> "sudo ./preinstaller" (sin las comillas). ATENCIÓN: probablemente se le deba otorgar permisos de ejecución al script preinstaller.sh previo a su ejecución.
+  * Esperar unos minutos mientras el preinstalador adecua el sistema para que el proceso de instalación inicie.
+  * Al iniciar el proceso de instalación, se mostrará una interfaz. La misma lo guiará durante el proceso de instalación.
 
 
-### MIT License
+### Licencia
+
+#### MIT License
 
 Copyright (c) 2015 Moisés Alejandro Alvarado Claro
 
