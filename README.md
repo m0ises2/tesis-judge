@@ -10,6 +10,9 @@
   * Hash híbrido para encriptar las contraseñas.
   * Encriptado de tipo “one way”.
 
+### Requerimientos
+  * Ambiente Linux.
+  * Interprete Bash.
 
 ### Instrucciones de uso
 
