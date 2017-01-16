@@ -1,0 +1,86 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'interfaz_1.ui'
+#
+# Created by: PyQt5 UI code generator 5.4.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_instalador_interfaz_1(object):
+    def setupUi(self, instalador_interfaz_1):
+        instalador_interfaz_1.setObjectName("instalador_interfaz_1")
+        instalador_interfaz_1.setEnabled(True)
+        instalador_interfaz_1.resize(684, 454)
+        instalador_interfaz_1.setMinimumSize(QtCore.QSize(684, 454))
+        instalador_interfaz_1.setMaximumSize(QtCore.QSize(684, 454))
+        self.facyt_logo = QtWidgets.QLabel(instalador_interfaz_1)
+        self.facyt_logo.setGeometry(QtCore.QRect(40, 220, 141, 161))
+        self.facyt_logo.setText("")
+        self.facyt_logo.setPixmap(QtGui.QPixmap("assets/facyt.png"))
+        self.facyt_logo.setScaledContents(True)
+        self.facyt_logo.setObjectName("facyt_logo")
+        self.uc_logo = QtWidgets.QLabel(instalador_interfaz_1)
+        self.uc_logo.setGeometry(QtCore.QRect(50, 40, 111, 161))
+        self.uc_logo.setText("")
+        self.uc_logo.setPixmap(QtGui.QPixmap("assets/log_uc.png"))
+        self.uc_logo.setScaledContents(True)
+        self.uc_logo.setObjectName("uc_logo")
+        self.layoutWidget = QtWidgets.QWidget(instalador_interfaz_1)
+        self.layoutWidget.setGeometry(QtCore.QRect(190, 10, 483, 421))
+        self.layoutWidget.setObjectName("layoutWidget")
+        self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.layoutWidget)
+        self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)
+        self.verticalLayout_2.setObjectName("verticalLayout_2")
+        self.verticalLayout = QtWidgets.QVBoxLayout()
+        self.verticalLayout.setObjectName("verticalLayout")
+        self.label = QtWidgets.QLabel(self.layoutWidget)
+        self.label.setStyleSheet("font: 75 bold 22pt \"Ubuntu\";")
+        self.label.setWordWrap(True)
+        self.label.setObjectName("label")
+        self.verticalLayout.addWidget(self.label)
+        spacerItem = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem)
+        self.label_2 = QtWidgets.QLabel(self.layoutWidget)
+        self.label_2.setStyleSheet("font: 63 14pt \"Ubuntu\";")
+        self.label_2.setWordWrap(True)
+        self.label_2.setObjectName("label_2")
+        self.verticalLayout.addWidget(self.label_2)
+        spacerItem1 = QtWidgets.QSpacerItem(20, 40, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem1)
+        spacerItem2 = QtWidgets.QSpacerItem(20, 118, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Expanding)
+        self.verticalLayout.addItem(spacerItem2)
+        self.verticalLayout_2.addLayout(self.verticalLayout)
+        self.horizontalLayout = QtWidgets.QHBoxLayout()
+        self.horizontalLayout.setObjectName("horizontalLayout")
+        spacerItem3 = QtWidgets.QSpacerItem(40, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem3)
+        spacerItem4 = QtWidgets.QSpacerItem(108, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem4)
+        self.anterior = QtWidgets.QPushButton(self.layoutWidget)
+        self.anterior.setEnabled(False)
+        self.anterior.setAutoDefault(True)
+        self.anterior.setObjectName("anterior")
+        self.horizontalLayout.addWidget(self.anterior)
+        self.siguiente = QtWidgets.QPushButton(self.layoutWidget)
+        self.siguiente.setObjectName("siguiente")
+        self.horizontalLayout.addWidget(self.siguiente)
+        spacerItem5 = QtWidgets.QSpacerItem(28, 20, QtWidgets.QSizePolicy.Fixed, QtWidgets.QSizePolicy.Minimum)
+        self.horizontalLayout.addItem(spacerItem5)
+        self.cancelar = QtWidgets.QPushButton(self.layoutWidget)
+        self.cancelar.setObjectName("cancelar")
+        self.horizontalLayout.addWidget(self.cancelar)
+        self.verticalLayout_2.addLayout(self.horizontalLayout)
+
+        self.retranslateUi(instalador_interfaz_1)
+        QtCore.QMetaObject.connectSlotsByName(instalador_interfaz_1)
+
+    def retranslateUi(self, instalador_interfaz_1):
+        _translate = QtCore.QCoreApplication.translate
+        instalador_interfaz_1.setWindowTitle(_translate("instalador_interfaz_1", "OJ+ Instalador"))
+        self.label.setText(_translate("instalador_interfaz_1", "Bienvenido al instalador para el Juez En Linea OJ+"))
+        self.label_2.setText(_translate("instalador_interfaz_1", "Este instalador lo guiará durante el proceso de instalación del Juez OJ+ en su computador."))
+        self.anterior.setText(_translate("instalador_interfaz_1", "Anterior"))
+        self.siguiente.setText(_translate("instalador_interfaz_1", "Siguiente"))
+        self.cancelar.setText(_translate("instalador_interfaz_1", "Cancelar"))

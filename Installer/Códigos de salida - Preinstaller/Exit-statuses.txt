@@ -1,0 +1,7 @@
+Estos son los codigos de salida para el wrapper script
+
+exit 0 -> Exitoso / Successfully.
+exit 1 -> No existe conexión a internet / No internet connection.
+exit 2 -> No hay suficiente espacio en el disco duro / Not enough disk space.
+exit 3 -> Error en instalación de paquete / Package installation error.
+exit 4 -> Error al descomprimir fichero / Unzip error.
